@@ -17,5 +17,5 @@ while num_of_try<5:
 if guess==num:
     print("Uh You Read My Mind in "+str(num_of_try)+" guess")
 else:
-    print("hehe It's Never easy to read my mind but still to the number is"+str(num))
+    print("hehe It's Never easy to read my mind but still the number is"+str(num))
     
