@@ -1,11 +1,11 @@
 import random
-num=random.randint(1,10)
+num=random.randint(1,10) #to generate a random number to guess
 
 Player_Name=input("Hey there!, What's your Name?")
-num_of_try=0
+num_of_try=0 #counter to record number of trails
 print("So "+Player_Name+ " guess the number between 1-10 ;)")
 
-while num_of_try<5:
+while num_of_try<5: #will only get 5 chances to guess
     guess=int(input())
     num_of_try+=1
     if guess<num:
